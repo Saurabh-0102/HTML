@@ -1,0 +1,18 @@
+h1{
+    color : white ;
+    background-color: royalblue;
+}
+
+#id3{
+    background: tomato;
+}
+
+.p{
+    background: lightgreen;
+}
+
+.p2{
+    background: lightcyan;
+    padding : 8px;
+    font-style: italic;
+}

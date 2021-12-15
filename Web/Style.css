@@ -1,0 +1,10 @@
+.head{
+    color: white;
+    background-color: tomato;
+    margin: 1px;
+    padding : 15px;
+}
+
+.cus{
+    border-radius: 50px;
+}

@@ -1,0 +1,100 @@
+#G{
+    color: #4285F4;
+}
+
+#o{
+color: #DB4437 ;
+}
+
+#o1{
+    color :#F4B400;
+}
+
+#e{
+    color : #0F9D58;
+}
+
+.cus{
+    text-align : "Center"   
+}
+
+.google{
+    position: relative;
+    margin-top: 10%;
+    width: 400px;
+    height: 65px;
+    border :0px solid red;;
+   font-size: 90px;
+   left: 35%;
+   /* margin-left: 465px; */
+}
+
+.Search{
+    position:absolute;
+    left: 33.5%;
+    height: 0px;
+}
+
+.input{
+    border :2px solid grey ;
+    height: 30px;
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.gogser{
+    position: absolute;
+    top :48%;
+    left: 38%;
+    width: 100px;
+    height: 25px;
+    padding: 3Px 16px;
+    border: 0px solid red;
+    background-color:#A9A9A9;
+    border-radius: 5px;
+    color: white;
+    border-color: #f8f9fa;
+    border: 4px;
+    line-height: 24px;
+}
+
+.imf{
+    position: absolute;
+    border: 0px solid red;
+    width: 125px;
+    height: 25px;
+    padding :3px 16px;
+    top : 48%;
+    left : 50%;
+    color : white;
+    background: #A9A9A9;
+    border-radius: 5px;
+    line-height: 24px;
+}
+
+.ind{
+    position: absolute;
+    top : 86.90%;
+    width: 100%;
+    border: 0px solid red;
+    font-size: 15px;
+    padding:15px 15px;
+    background: #C0C0C0;
+    color: grey;
+    margin: 0%;
+}
+
+.abt{
+    position: absolute;
+    top : 93.75%;
+    width: 100%;
+    border: 0px solid red;
+    font-size: 15px;
+    padding:15px 15px;
+    background: #C0C0C0;
+    color: grey;
+    word-spacing: 45px;
+    margin: 0%;
+}
