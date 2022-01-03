@@ -1,0 +1,3 @@
+external data wirtten into result.txt file
+
+saurabh jharia 

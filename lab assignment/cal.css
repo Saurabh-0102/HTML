@@ -1,0 +1,60 @@
+html,body{
+    margin: 0px;
+    background: lightgreen;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+    /* height: 10%; */
+    /* background: gray; */
+    /* width: 90%; */
+}
+
+.inner{
+    width: 90%;
+    color: wheat;
+    height: 40px;
+    border :1px solid black;
+    border-radius: 10p;  
+    border-radius: 10px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+
+.digit{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+
+.butt{
+    width: 70px;
+    font-weight: bold;
+    height: 45px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    height:350px;
+    /* margin-left: 40%; */
+    margin-top: 13%;
+    border-radius: 10px;
+}
+
+.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

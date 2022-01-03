@@ -1,0 +1,133 @@
+html,body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+.child1{
+    flex: 1;
+/* background: green;    */
+}
+
+.child2{
+    flex: 1;
+    /* background: silver; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space{
+    margin-left: 15px;
+    margin-right: 14px;
+}
+
+.home{
+    font-family: 'Open Sans', sans-serif;
+    font-size:25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.beauti-links{
+    font-size: 21px;
+    /* font-family: ;
+     */
+     font-family: 'Open Sans', sans-serif;
+    color : white;
+}
+
+.parent2{
+    display: flex;
+    /* background: rgba(197, 201, 197,0.5); */
+    background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("https://picsum.photos/1000");
+      
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;  
+}
+
+.child21{
+    /* background : red; */
+    flex: 1;
+}
+
+.child22{
+    /* background: rgba(197, 201, 197,0.5); */
+    flex: 3;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.child23{
+    /* background: blue; */
+    flex: 1;
+}
+
+.album{
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.para{
+    margin-top: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 2px;
+    /* font-weight:bold; */
+}
+.button{
+    margin-top: 10px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(148, 139, 226);
+    color: wheat;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+.parent3{
+    display: flex;
+    background: grey;
+    flex-wrap: wrap;
+
+}
+
+.child3{
+    width: 200px;
+    display: flex;
+    flex-direction: column; 
+    /* padding: 10px; */
+    margin-left: 55px;
+    /* margin-right: 55px; */
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border : 1px solid rgb(148, 139, 226);
+    /* justify-content: center; */
+}
+
+.img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.para{
+    text-align: center;
+}
+
